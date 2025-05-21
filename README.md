@@ -1,4 +1,5 @@
-Sydney Events Scraper
+**Sydney Events Scraper**
+
 This is a full-stack project with a React frontend and Node.js backend.
 
 To run the project, first fork this repository to your GitHub account.
