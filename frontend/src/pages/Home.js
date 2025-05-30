@@ -5,7 +5,7 @@ function Home() {
     const [data, setdata] = useState([]);
     async function display() {
         try {
-            const info = await fetch("http://localhost:5000/");
+            const info = await fetch("https://ass-sydney-events-scraper-pr.onrender.com");
             const detail = await info.json();
             setdata(detail);
             console.log(detail);
